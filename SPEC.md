@@ -100,7 +100,7 @@ under a `<name>/` prefix. The command prints the sha256 of the archive.
 
 ## Build log
 
-- Cycle 1: scaffold, spec, frontmatter parser + tests.
-- Cycle 2: skill loader, lint engine, lint command + tests.
-- Cycle 3: activation, tar packer, init/pack/test commands, CLI.
-- Cycle 4: CLI end-to-end tests, README, final verification.
+- Cycle 1 (2026-10-13): scaffold, spec, frontmatter parser + tests. Commit aad8a7b.
+- Cycle 2 (2026-10-13): skill loader, lint engine, lint command + tests. Commit c42e83d.
+- Cycle 3 (2026-10-13): activation simulator, tar packer, init/pack/test commands, CLI. Commit cc86b8a.
+- Cycle 4 (2026-10-13): CLI end-to-end tests, README, example skill, final verification. 48 tests green; tar extraction smoke test passed.
